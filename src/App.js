@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+import Navbar from './components/Navbar';
 import Home from './pages/home/Home';
 import Create from './pages/create/Create';
 import Recipe from './pages/recipe/Recipe';
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className='App'>
       <BrowserRouter>
+        <Navbar />
         {/* <Switch></Switch> is used to define a collection of routes for an application. This means that the App will only
             render the <Route></Route> whos path matches the URL. <Switch></Switch> does this by looping through all the routes
             within it and only rendering the first one that matches the current URL. */}

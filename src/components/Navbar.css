@@ -1,0 +1,32 @@
+.navbar {
+    background: #58249c;
+    padding: 20px; /* Adds space around the Navbar component */
+}
+
+.navbar nav {
+    display: flex; /* Places nav elements on the same line */
+    align-items: center; /* Vertically centers items */
+    max-width: 1200px;
+    margin: 0 auto; /* Centers elements horizontally automatically based on screen size. 0 does not affect verticallity */
+}
+
+.navbar a.brand {
+    margin-right: auto; /* Places a large margin between itself and the other links */
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:last-child {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+/* Animation */
+.navbar a:last-child:hover {
+    background: #fff;
+    color: #333;
+}
